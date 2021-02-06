@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <!--
+    jpa根据下面的配置信息创建EntityManagerFactory：一个项目中可以配置多个持久单元(persistence unit)
+    -->
+    <persistence-unit name="myPersistence"><!--给持久单元命名，通过名称加载对应配置信息-->
+        <properties>
+            <!--配置的数据库信息-->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/><!--指定mysql数据库版本5-->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql:///jpa"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="883203"/>
+            <!--是否在控制台打印sql语句-->
+            <property name="hibernate.show_sql" value="true"/>
+            <!--jpa自动生成表结构-->
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+    </persistence-unit>
+</persistence>
