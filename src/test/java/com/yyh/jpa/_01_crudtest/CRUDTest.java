@@ -1,7 +1,8 @@
-package com.yyh.jpa_01_crudtest;
+package com.yyh.jpa._01_crudtest;
 
-import com.yyh.jpa_01_crud.User;
+import com.yyh.jpa._01_crud.User;
 import com.yyh.util.JPAUtil;
+import org.junit.Before;
 import org.junit.Test;
 
 import javax.persistence.EntityManager;
@@ -12,7 +13,7 @@ import java.util.List;
 public class CRUDTest {
 
     //保存
-    @Test
+    @Before
     public void testSave(){
         User user = new User();
         user.setName("sansan");
@@ -89,6 +90,24 @@ public class CRUDTest {
         //结果放在list集合里面
         List<User> list = query.getResultList();
         System.out.println(list);
+        em.close();
+    }
+    @Test
+    public void testCache(){//两次查询只有一条sql
+        EntityManager em = JPAUtil.getEntityManager();
+        User user = em.find(User.class, 1L);
+        System.out.println(user);
+        User user2 = em.find(User.class, 1L);
+        System.out.println(user2);
+        em.close();
+    }
+    @Test
+    public void testObjectState(){
+        EntityManager em = JPAUtil.getEntityManager();
+        em.getTransaction().begin();
+        User user = em.find(User.class, 1L);
+        user.setName("pangpang");
+        em.getTransaction().commit();//此处会自动执行更新语句
         em.close();
     }
 }

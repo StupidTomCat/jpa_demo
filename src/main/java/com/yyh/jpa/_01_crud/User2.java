@@ -1,4 +1,4 @@
-package com.yyh.jpa_01_crud;
+package com.yyh.jpa._01_crud;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,7 +11,7 @@ import java.util.Date;
 @Getter//Lombok的注解
 @Setter//Lombok的注解
 @ToString//Lombok的注解
-public class User {
+public class User2 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
