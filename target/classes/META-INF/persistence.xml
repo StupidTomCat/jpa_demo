@@ -6,8 +6,9 @@
     <persistence-unit name="myPersistence"><!--给持久单元命名，通过名称加载对应配置信息-->
         <!--需要扫描的类，让jpa管理-->
         <class>com.yyh.jpa._01_crud.User</class>
-        <class>com.yyh.jpa._02_many2one.Employee</class>
-        <class>com.yyh.jpa._02_many2one.Dept</class>
+        <class>com.yyh.jpa._07_extends.Product</class>
+        <class>com.yyh.jpa._07_extends.Book</class>
+        <class>com.yyh.jpa._07_extends.Cloth</class>
         <!--true，排除掉上面没有列出来的类-->
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>

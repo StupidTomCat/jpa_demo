@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e8c1d5-05f5-4d65-97b0-650cffe865d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_01_crud/User2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_02_many2one/Many2OneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_03_one2many/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_03_one2many/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_04_many2one2many/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_04_many2one2many/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_06_component/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_06_component/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Cloth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_03_one2manytest/One2ManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_04_many2one2manytest/Many2One2ManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_05_many2manytest/Many2ManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_06_component/ComponentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_07_extendstest/ExtendsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yyh/jpa_01_crud/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_01_crud/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yyh/jpa_01_crudtest/CRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_01_crudtest/CRUDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yyh/jpa_01_crud/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yyh/jpa_01_crudtest/CRUDTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,43 +31,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_01_crud/User2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_01_crud/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +48,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="190">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Cloth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,51 +81,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_02_many2one/Many2OneTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_07_extendstest/ExtendsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="128">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Dept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/util/JPAUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_01_crudtest/CRUDTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#20#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,9 +114,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa_01_crud/User2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa_01_crudtest/CRUDTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Dept.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Employee.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_02_many2one/Many2OneTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_03_one2many/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_03_one2manytest/One2ManyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_03_one2many/Dept.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_04_many2one2manytest/Many2One2ManyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_04_many2one2many/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_04_many2one2many/Dept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_05_many2manytest/Many2ManyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_06_component/Address.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_06_component/ComponentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_06_component/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Cloth.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Product.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yyh/jpa/_07_extendstest/ExtendsTest.java" />
       </list>
     </option>
   </component>
@@ -193,6 +171,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,7 +222,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yyh" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="_02_many2one" type="462c0819:PsiDirectoryNode" />
+              <item name="_03_one2many" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyh" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="_04_many2one2many" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyh" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="_07_extends" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -274,18 +288,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jpa" type="462c0819:PsiDirectoryNode" />
               <item name="_02_many2one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="_04_many2one2manytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jpa_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jpa_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="_07_extendstest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -294,6 +326,11 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\Project_Location\jpa_demo\src\main\java\com\yyh\jpa\_05_many2many" />
+      <recent name="D:\Idea\Project_Location\jpa_demo\src\main\java\com\yyh\jpa\_04_many2one2many" />
+      <recent name="D:\Idea\Project_Location\jpa_demo\src\main\java\com\yyh\jpa\_03_one2many" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yyh.jpa_01_crud" />
     </key>
@@ -313,82 +350,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Many2OneTest.testGet">
-    <configuration name="CRUDTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExtendsTest.testGet">
+    <configuration name="ComponentTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yyh.jpa_01_crudtest.*" />
+          <option name="PATTERN" value="com.yyh.jpa._06_component.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yyh.jpa_01_crudtest" />
-      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa_01_crudtest.CRUDTest" />
-      <option name="METHOD_NAME" value="testCache" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CRUDTest.testObjectState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yyh.jpa_01_crudtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yyh.jpa_01_crudtest" />
-      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa_01_crudtest.CRUDTest" />
-      <option name="METHOD_NAME" value="testObjectState" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CRUDTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpa_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yyh.jpa_01_crudtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yyh.jpa_01_crudtest" />
-      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa_01_crudtest.CRUDTest" />
+      <option name="PACKAGE_NAME" value="com.yyh.jpa._06_component" />
+      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._06_component.ComponentTest" />
       <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Many2OneTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtendsTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yyh.jpa._02_many2one.*" />
+          <option name="PATTERN" value="com.yyh.jpa._07_extendstest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yyh.jpa._02_many2one" />
-      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._02_many2one.Many2OneTest" />
+      <option name="PACKAGE_NAME" value="com.yyh.jpa._07_extendstest" />
+      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._07_extendstest.ExtendsTest" />
       <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Many2OneTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtendsTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpa_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yyh.jpa._02_many2one.*" />
+          <option name="PATTERN" value="com.yyh.jpa._07_extendstest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yyh.jpa._02_many2one" />
-      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._02_many2one.Many2OneTest" />
+      <option name="PACKAGE_NAME" value="com.yyh.jpa._07_extendstest" />
+      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._07_extendstest.ExtendsTest" />
       <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Many2ManyTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyh.jpa._05_many2manytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yyh.jpa._05_many2manytest" />
+      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._05_many2manytest.Many2ManyTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Many2One2ManyTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpa_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyh.jpa._04_many2one2manytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yyh.jpa._04_many2one2manytest" />
+      <option name="MAIN_CLASS_NAME" value="com.yyh.jpa._04_many2one2manytest.Many2One2ManyTest" />
+      <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -396,11 +433,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Many2OneTest.testGet" />
-        <item itemvalue="JUnit.Many2OneTest.testSave" />
-        <item itemvalue="JUnit.CRUDTest.testObjectState" />
-        <item itemvalue="JUnit.CRUDTest.testCache" />
-        <item itemvalue="JUnit.CRUDTest.testSave" />
+        <item itemvalue="JUnit.ExtendsTest.testGet" />
+        <item itemvalue="JUnit.ExtendsTest.testSave" />
+        <item itemvalue="JUnit.ComponentTest.testSave" />
+        <item itemvalue="JUnit.Many2ManyTest.testSave" />
+        <item itemvalue="JUnit.Many2One2ManyTest.testGet" />
       </list>
     </recent_temporary>
   </component>
@@ -415,43 +452,44 @@
       <option name="presentableId" value="Default" />
       <updated>1612582706642</updated>
       <workItem from="1612582708002" duration="20424000" />
+      <workItem from="1612663017056" duration="19005000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CRUDTest_testGet - 2021.02.06 at 15h 47m 33s.xml">
-      <configuration name="CRUDTest.testGet" configurationId="JUnit" />
+    <history-entry file="Many2One2ManyTest_testSave - 2021.02.07 at 12h 16m 53s.xml">
+      <configuration name="Many2One2ManyTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CRUDTest_testSave - 2021.02.06 at 20h 34m 08s.xml">
-      <configuration name="CRUDTest.testSave" configurationId="JUnit" />
+    <history-entry file="Many2One2ManyTest_testGet - 2021.02.07 at 12h 25m 04s.xml">
+      <configuration name="Many2One2ManyTest.testGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CRUDTest_testCache - 2021.02.06 at 20h 34m 38s.xml">
-      <configuration name="CRUDTest.testCache" configurationId="JUnit" />
+    <history-entry file="Many2One2ManyTest_testGet - 2021.02.07 at 12h 25m 28s.xml">
+      <configuration name="Many2One2ManyTest.testGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CRUDTest_testCache - 2021.02.06 at 20h 35m 24s.xml">
-      <configuration name="CRUDTest.testCache" configurationId="JUnit" />
+    <history-entry file="Many2One2ManyTest_testGet - 2021.02.07 at 12h 27m 12s.xml">
+      <configuration name="Many2One2ManyTest.testGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CRUDTest_testObjectState - 2021.02.06 at 21h 22m 10s.xml">
-      <configuration name="CRUDTest.testObjectState" configurationId="JUnit" />
+    <history-entry file="Many2One2ManyTest_testGet - 2021.02.07 at 12h 37m 27s.xml">
+      <configuration name="Many2One2ManyTest.testGet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Many2OneTest_testSave - 2021.02.06 at 22h 34m 58s.xml">
-      <configuration name="Many2OneTest.testSave" configurationId="JUnit" />
+    <history-entry file="Many2ManyTest_testSave - 2021.02.07 at 15h 49m 22s.xml">
+      <configuration name="Many2ManyTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Many2OneTest_testSave - 2021.02.06 at 22h 37m 07s.xml">
-      <configuration name="Many2OneTest.testSave" configurationId="JUnit" />
+    <history-entry file="ComponentTest_testSave - 2021.02.07 at 16h 50m 44s.xml">
+      <configuration name="ComponentTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Many2OneTest_testGet - 2021.02.06 at 22h 52m 27s.xml">
-      <configuration name="Many2OneTest.testGet" configurationId="JUnit" />
+    <history-entry file="ExtendsTest_testSave - 2021.02.07 at 21h 21m 10s.xml">
+      <configuration name="ExtendsTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Many2OneTest_testGet - 2021.02.06 at 22h 53m 09s.xml">
-      <configuration name="Many2OneTest.testGet" configurationId="JUnit" />
+    <history-entry file="ExtendsTest_testSave - 2021.02.07 at 21h 31m 33s.xml">
+      <configuration name="ExtendsTest.testSave" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Many2OneTest_testGet - 2021.02.06 at 23h 07m 23s.xml">
-      <configuration name="Many2OneTest.testGet" configurationId="JUnit" />
+    <history-entry file="ExtendsTest_testGet - 2021.02.07 at 21h 39m 27s.xml">
+      <configuration name="ExtendsTest.testGet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20424000" />
+    <option name="totallyTimeSpent" value="39429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -460,7 +498,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.22453083" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2272118" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -472,7 +510,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.43108505" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.6480938" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -490,29 +528,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa_01_crud/CRUDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa_01_crud/CRUDTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="665">
           <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/util/JPAUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_01_crud/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="152">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -535,8 +555,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Dept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="190">
           <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/util/JPAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -545,26 +575,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_01_crudtest/CRUDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="1843">
           <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#20#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_03_one2many/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state>
+          <caret column="32" selection-start-column="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_02_many2one/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="314">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_03_one2many/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#31#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_03_one2manytest/One2ManyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -573,8 +622,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_02_many2one/Many2OneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="361">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_04_many2one2manytest/Many2One2ManyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_05_many2manytest/Many2ManyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_04_many2one2many/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_04_many2one2many/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_05_many2many/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_06_component/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_06_component/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_06_component/ComponentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Cloth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yyh/jpa/_07_extends/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yyh/jpa/_07_extendstest/ExtendsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
