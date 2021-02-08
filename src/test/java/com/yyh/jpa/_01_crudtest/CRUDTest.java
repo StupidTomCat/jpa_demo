@@ -7,10 +7,39 @@ import org.junit.Test;
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class CRUDTest {
+
+    //保存20条数据  事实上有下面那个@Before方法，我存了21条数据，哈哈
+    @Test
+    public void testSave20User(){
+        List<User> userList = new ArrayList<>();
+        for (int i = 0 ;i < 20 ;i++){
+            User user = new User();
+            user.setName("sansan"+i);
+            user.setAge(i);
+            user.setHireDate(new Date());
+            userList.add(user);
+        }
+
+
+        //调用EntityManager完成保存
+        EntityManager em = JPAUtil.getEntityManager();
+        //开启事务
+        em.getTransaction().begin();
+        //执行保存
+        for (int i = 0 ;i < 20 ;i++){
+            User user = userList.get(i);
+            em.persist(user);
+        }
+        //提交事务
+        em.getTransaction().commit();
+        //释放资源
+        em.close();
+    }
 
     //保存
     @Before
